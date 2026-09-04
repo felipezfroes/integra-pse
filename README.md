@@ -93,8 +93,8 @@ A implementação completa em C será desenvolvida progressivamente durante as p
 ## Integrantes
 
 * Felipe Zotareli Froes — RA: 26003110-2
-* NOME DO INTEGRANTE — RA:
-* NOME DO INTEGRANTE — RA:
+* Julia Petrafeza de Oliveira — RA: 26009540-2
+* Vitor Hugo Fernandes Lissoni — RA: 26002354-2
 
 ## Instituição
 
