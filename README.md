@@ -8,15 +8,15 @@ Projeto desenvolvido como parte da **AEP do 2º semestre de 2026** do curso de E
 
 O IntegraPSE é uma aplicação desenvolvida em linguagem C com o objetivo de auxiliar no planejamento e acompanhamento de ações realizadas no âmbito do Programa Saúde na Escola.
 
-O sistema permitirá organizar informações sobre atividades realizadas em diferentes escolas, facilitando o cadastro, consulta, acompanhamento e análise das ações.
+O sistema permite organizar informações sobre atividades realizadas em diferentes escolas, facilitando o cadastro, consulta, acompanhamento e análise das ações.
 
-Para fins acadêmicos, serão utilizados apenas dados fictícios e informações coletivas, sem armazenamento de dados pessoais ou clínicos dos estudantes.
+Para fins acadêmicos, são utilizados apenas dados fictícios e informações coletivas, sem armazenamento de dados pessoais ou clínicos dos estudantes.
 
 ## Objetivo
 
 Desenvolver uma aplicação simples executada em terminal capaz de registrar e acompanhar ações coletivas do Programa Saúde na Escola, aplicando conceitos de lógica de programação, linguagem C e Engenharia de Software.
 
-## Funcionalidades previstas
+## Funcionalidades
 
 * Cadastro de ações do PSE;
 * Listagem das ações cadastradas;
@@ -28,7 +28,7 @@ Desenvolver uma aplicação simples executada em terminal capaz de registrar e a
 
 ## Informações de uma ação
 
-Cada ação poderá possuir:
+Cada ação possui:
 
 * Código;
 * Escola;
@@ -40,7 +40,7 @@ Cada ação poderá possuir:
 * Quantidade efetiva de participantes;
 * Situação da ação.
 
-As situações previstas são:
+As situações possíveis são:
 
 * Planejada;
 * Realizada;
@@ -53,6 +53,21 @@ As situações previstas são:
 * GitHub
 * Dev-C++
 
+## Como executar
+
+1. Baixe o repositório e abra o arquivo `src/integrapse.c` no Dev-C++.
+2. Selecione **Execute > Compile & Run** (tecla F11).
+3. Utilize o menu exibido no console.
+
+Também é possível compilar pelo terminal:
+
+```bash
+gcc src/integrapse.c -o integrapse
+./integrapse
+```
+
+O manual completo está em `docs/segunda-entrega/manual-do-usuario.md`.
+
 ## Estrutura do projeto
 
 ```text
@@ -61,11 +76,12 @@ integra-pse/
 ├── .gitignore
 ├── docs/
 │   ├── primeira-entrega/
-│   └── referencias/
+│   └── segunda-entrega/
 └── src/
+    └── integrapse.c
 ```
 
-A pasta `docs` armazena os artefatos relacionados à documentação da AEP, enquanto `src` será utilizada para o código-fonte da aplicação.
+A pasta `docs` armazena os artefatos relacionados à documentação da AEP, enquanto `src` armazena o código-fonte da aplicação.
 
 ## Documentação
 
@@ -78,17 +94,25 @@ A documentação da primeira etapa inclui:
 * Planejamento das sprints;
 * Referências utilizadas.
 
-Os arquivos podem ser encontrados em:
+Os arquivos podem ser encontrados em `docs/primeira-entrega/`.
 
-`docs/primeira-entrega/`
+A documentação da segunda etapa inclui:
+
+* Documento completo da segunda entrega;
+* Diagrama e descrição dos casos de uso;
+* Requisitos atualizados;
+* Testes realizados;
+* Manual do usuário;
+* Acompanhamento das sprints;
+* Capturas de tela da execução.
+
+Os arquivos podem ser encontrados em `docs/segunda-entrega/`.
 
 ## Status do projeto
 
-🚧 **Em desenvolvimento — 1ª etapa: análise e planejamento**
+✅ **Concluído — 2ª etapa: implementação, testes e documentação final**
 
-Nesta etapa estão sendo desenvolvidos os requisitos, fluxogramas, pseudocódigos e planejamento da implementação.
-
-A implementação completa em C será desenvolvida progressivamente durante as próximas sprints.
+A aplicação em C foi implementada com todas as funcionalidades previstas e testada no Dev-C++.
 
 ## Integrantes
 
@@ -105,4 +129,4 @@ Curso de Engenharia de Software
 
 ## Observação
 
-Este projeto possui finalidade acadêmica. Todos os exemplos utilizados pelo sistema deverão utilizar informações fictícias e coletivas, preservando a privacidade dos estudantes.
+Este projeto possui finalidade acadêmica. Todos os exemplos utilizados pelo sistema utilizam informações fictícias e coletivas, preservando a privacidade dos estudantes.
