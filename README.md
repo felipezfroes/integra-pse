@@ -108,6 +108,10 @@ A documentação da segunda etapa inclui:
 
 Os arquivos podem ser encontrados em `docs/segunda-entrega/`.
 
+## Vídeo de apresentação
+
+O vídeo de apresentação do projeto está disponível em: [https://youtu.be/PSBip6JPchY](https://youtu.be/PSBip6JPchY)
+
 ## Status do projeto
 
 ✅ **Concluído — 2ª etapa: implementação, testes e documentação final**
